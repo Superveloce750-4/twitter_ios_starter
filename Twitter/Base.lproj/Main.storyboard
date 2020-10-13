@@ -10,6 +10,8 @@
     </dependencies>
     <scenes>
         <!--Login View Controller-->
+        <scene sceneID="yT8-Zp-3dj">
+            <objects>
                 <viewController id="LkP-gJ-Rt1" customClass="LoginViewController" customModule="Twitter" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="amL-Xi-dyX">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
