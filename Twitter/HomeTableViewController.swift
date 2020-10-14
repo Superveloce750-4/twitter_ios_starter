@@ -68,13 +68,12 @@ class HomeTableViewController: UITableViewController {
         })
     }
     
-    /*
-    override func tableView(_ tableView: UITableView, willDisplaycell: UITableViewCell, forRowAt indexPath: IndexPath){
-        if indexPath.row + 1 == tweetArray.count {
-            loadMoreTweets()
-        }
+    
+    override func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {         if indexPath.row + 1 == tweetArray.count{
+                loadMoreTweets()
+                }
     }
-    */
+    
     
     @IBAction func onLogout(_ sender: Any) {
         TwitterAPICaller.client?.logout()
